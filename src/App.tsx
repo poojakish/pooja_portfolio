@@ -21,11 +21,11 @@ function App() {
     <Router>
       <Navigation parentToChild={{ mode }} modeChange={handleModeChange} />
       <Routes>
-        <Route path="/" element={<Home mode={mode} />} />
-        <Route path="/education" element={<EducationPage mode={mode} />} />
-        <Route path="/timeline" element={<TimelinePage mode={mode} />} />
-        <Route path="/projects" element={<ProjectsPage mode={mode} />} />
-        <Route path="/projects/:projectId" element={<ProjectDetailsPage mode ={mode} />} />
+        <Route path="pooja_portfolio/" element={<Home mode={mode} />} />
+        <Route path="/pooja_portfolio/education" element={<EducationPage mode={mode} />} />
+        <Route path="/pooja_portfolio/timeline" element={<TimelinePage mode={mode} />} />
+        <Route path="/pooja_portfolio/projects" element={<ProjectsPage mode={mode} />} />
+        <Route path="/pooja_portfolio/projects/:projectId" element={<ProjectDetailsPage mode ={mode} />} />
         {/* <Route path="/contact" element={<ContactPage mode={mode} />} /> */}
       </Routes>
     </Router>

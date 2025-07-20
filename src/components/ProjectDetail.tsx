@@ -17,8 +17,8 @@ export default function ProjectDetailsPage({ mode }: { mode: string }) {
         return <EilaFerDetail />;
       case 'afib-explainable-ai':
         return <AfibExplainableDetail />;
-      case 'path-voice-classification':
-        return <PathologicalVoiceDetail />;
+      // case 'path-voice-classification':
+      //   return <PathologicalVoiceDetail />;
       default:
         return <p>Project not found.</p>;
     }

@@ -19,10 +19,10 @@ import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
 const navItems = [
-  ['Home', '/'],
-  ['Education', '/education'],
-  ['Experience', '/timeline'],
-  ['Projects', '/projects'],
+  ['Home', '/pooja_portfolio/'],
+  ['Education', '/pooja_portfolio/education'],
+  ['Experience', '/pooja_portfolio/timeline'],
+  ['Projects', '/pooja_portfolio/projects'],
   // ['Contact', '/contact']
 ];
 
