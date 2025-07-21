@@ -50,7 +50,7 @@ const Project: React.FC = () => {
       <div className="projects-grid">
         {projects.map(({ id, title, image, description }) => (
           <div className="project" key={id}>
-            <Link to={`/projects/${id}`} className="project-link">
+            <Link to={`/pooja_portfolio/projects/${id}`} className="project-link">
               <img src={image} alt={title} className="zoom" width="100%" />
               <h2>{title}</h2>
               <p>{description}</p>

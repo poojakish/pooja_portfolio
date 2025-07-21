@@ -52,7 +52,7 @@ const ProjectPreview: React.FC = () => {
         ))}
       </div>
       <div className="more-projects-btn-container" style={{ textAlign: "center", marginTop: "20px" }}>
-        <Link to="/projects" className="more-projects-btn">
+        <Link to="/pooja_portfolio/projects" className="more-projects-btn">
           More Projects →
         </Link>
       </div>
