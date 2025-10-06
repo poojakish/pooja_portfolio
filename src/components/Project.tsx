@@ -7,7 +7,9 @@ import hazmatImg from '../assets/images/hazmat_preview.png';
 import eilaImg from '../assets/images/eila_preview.png';
 import afibImg from '../assets/images/af_xai.png';
 import pathVoiceImg from '../assets/images/path_preview.png'; // Add this line for the new project image
-
+import multimodalImg from '../assets/images/multipmodal_projects_preview.png'; // replace with actual import path for your chosen image
+import acdcSegImg from '../assets/images/dlmia_preview.png'; // import a suitable image/figure from your assets
+import ciriImg from '../assets/images/ciri_preview.png'; // import your chosen image, e.g. ciri_incident_classification.png
 interface ProjectType {
   id: string;
   title: string;
@@ -40,6 +42,24 @@ const projects: ProjectType[] = [
     image: pathVoiceImg,
     description: "Developed a machine learning system to classify pathological vs normal voices. Granted an Indian patent for its clinical potential.",
   },
+  {
+    id: "multimodal-object-detection",
+    title: "Enhancing Object Detection and Tracking with Multimodal Integration",
+    image: multimodalImg, // replace with actual import path for your chosen image
+    description: "Proposed a real-time framework combining YOLOv8 detections with 2D LiDAR slices to improve distance estimation and tracking in autonomous driving. Validated on NuScenes dataset.",
+  },
+  {
+    id: "acdc-segmentation-merit-unet",
+    title: "Comparing MERIT and U-Net for Cardiac MRI Segmentation (ACDC Challenge)",
+    image: acdcSegImg, // import a suitable image/figure from your assets
+    description: "Conducted a comparative study of U-Net (CNN-based) and MERIT (Transformer-based) for automated cardiac MRI segmentation in the ACDC challenge. MERIT achieved higher Dice scores (0.88 vs 0.85), while U-Net proved more computationally efficient.",
+  },
+  {
+    id: "ciri-incident-classification",
+    title: "Classification of Incident-Related Images (CIRI)",
+    image: ciriImg, // import your chosen image, e.g. ciri_incident_classification.png
+    description: "Built a machine learning framework to classify disaster-related images (e.g., floods, earthquakes, wildfires) using InceptionV3, shallow NNs, and ensemble learning. Oversampling improved accuracy to 90%, supporting faster disaster response planning.",
+  }  
   // Add more projects...
 ];
 

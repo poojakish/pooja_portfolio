@@ -11,7 +11,7 @@ function Education() {
           <p><strong>Program:</strong> Computer Science</p>
           <p><strong>University:</strong> University of Twente</p>
           <p><strong>Location:</strong> Enschede, NL</p>
-          <p><strong>GPA:</strong> 7.56</p>
+          <p><strong>GPA:</strong> 7.92</p>
           <p><strong>Relevant Coursework:</strong></p>
           <ul>
             <li>Image Processing and Computer Vision</li>
@@ -38,6 +38,7 @@ function Education() {
             <li>Python</li>
             <li>Java</li>
             <li>Data Structures</li>
+            <li>Natural Language Processing</li>
           </ul>
         </div>
       </div>

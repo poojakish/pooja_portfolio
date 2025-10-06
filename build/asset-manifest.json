@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pooja_portfolio/static/css/main.964a8321.css",
+    "main.js": "/pooja_portfolio/static/js/main.e93c7627.js",
+    "static/js/453.38c58dfd.chunk.js": "/pooja_portfolio/static/js/453.38c58dfd.chunk.js",
+    "static/media/af_xai_full.png": "/pooja_portfolio/static/media/af_xai_full.0d799e8fbb2ece562334.png",
+    "static/media/eila_preview.png": "/pooja_portfolio/static/media/eila_preview.78982375381b65becca0.png",
+    "static/media/eila_full.png": "/pooja_portfolio/static/media/eila_full.6ec08643d57b19153670.png",
+    "static/media/hazmat_preview.png": "/pooja_portfolio/static/media/hazmat_preview.864f82d3a43cf100158c.png",
+    "static/media/path_preview.png": "/pooja_portfolio/static/media/path_preview.f07d6ae81babece8f7d3.png",
+    "static/media/af_xai.png": "/pooja_portfolio/static/media/af_xai.bbaa4747b2390eb59344.png",
+    "static/media/bg-light.png": "/pooja_portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/IMG_5514.jpg": "/pooja_portfolio/static/media/IMG_5514.20cca5a1c2b135c1e417.jpg",
+    "static/media/bg-dark.png": "/pooja_portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/nccv_poster_prest.jpeg": "/pooja_portfolio/static/media/nccv_poster_prest.1070ff7db79f299536bf.jpeg",
+    "static/media/Hazmat_main.png": "/pooja_portfolio/static/media/Hazmat_main.f62ed398f39fe8ede33e.png",
+    "index.html": "/pooja_portfolio/index.html",
+    "main.964a8321.css.map": "/pooja_portfolio/static/css/main.964a8321.css.map",
+    "main.e93c7627.js.map": "/pooja_portfolio/static/js/main.e93c7627.js.map",
+    "453.38c58dfd.chunk.js.map": "/pooja_portfolio/static/js/453.38c58dfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964a8321.css",
+    "static/js/main.e93c7627.js"
+  ]
+}

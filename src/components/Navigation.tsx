@@ -23,6 +23,7 @@ const navItems = [
   ['Education', '/pooja_portfolio/education'],
   ['Experience', '/pooja_portfolio/timeline'],
   ['Projects', '/pooja_portfolio/projects'],
+  ['Resume', 'https://drive.google.com/file/d/1qrJe-hlRHkoSFTSZkm8Eu0IgRLqnhOJS/view?usp=sharing'],
   // ['Contact', '/contact']
 ];
 
@@ -63,12 +64,13 @@ function Navigation({ parentToChild, modeChange }: any) {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar component="nav" id="navigation" className="navbar-fixed-top">
-        <Toolbar className='navigation-bar'>
-          <IconButton
+        <Toolbar className='navigation-bar' sx={{ justifyContent: 'flex-end' }}>
+          {/* <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
+            hidden
             sx={{ mr: 2, display: { sm: 'none' } }}
           >
             <MenuIcon />
@@ -77,7 +79,7 @@ function Navigation({ parentToChild, modeChange }: any) {
             <LightModeIcon onClick={() => modeChange()} />
           ) : (
             <DarkModeIcon onClick={() => modeChange()} />
-          )}
+          )} */}
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button
