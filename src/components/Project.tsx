@@ -37,12 +37,6 @@ const projects: ProjectType[] = [
     description: "Applied SHAP and U-MAP to explain SVM predictions on ECG data for clinical use.",
   },
   {
-    id: "path-voice-classification",
-    title: "Pathological Voice Classification using ANN, RBFNN, and Regression Tree",
-    image: pathVoiceImg,
-    description: "Developed a machine learning system to classify pathological vs normal voices. Granted an Indian patent for its clinical potential.",
-  },
-  {
     id: "multimodal-object-detection",
     title: "Enhancing Object Detection and Tracking with Multimodal Integration",
     image: multimodalImg, // replace with actual import path for your chosen image
@@ -59,7 +53,13 @@ const projects: ProjectType[] = [
     title: "Classification of Incident-Related Images (CIRI)",
     image: ciriImg, // import your chosen image, e.g. ciri_incident_classification.png
     description: "Built a machine learning framework to classify disaster-related images (e.g., floods, earthquakes, wildfires) using InceptionV3, shallow NNs, and ensemble learning. Oversampling improved accuracy to 90%, supporting faster disaster response planning.",
-  }  
+  },
+  {
+    id: "path-voice-classification",
+    title: "Pathological Voice Classification using ANN, RBFNN, and Regression Tree",
+    image: pathVoiceImg,
+    description: "Developed a machine learning system to classify pathological vs normal voices. Granted an Indian patent for its clinical potential.",
+  },
   // Add more projects...
 ];
 

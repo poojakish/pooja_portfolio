@@ -20,12 +20,12 @@ export default function ProjectDetailsPage({ mode }: { mode: string }) {
         return <EilaFerDetail />;
       case 'afib-explainable-ai':
         return <AfibExplainableDetail />;
-      case 'path-voice-classification':
-        return <PathologicalVoiceDetail />;
-      case 'multimodal-object-detection':
-        return <MultimodalProjectDetail />;
       case 'acdc-segmentation-merit-unet':
         return <ACDCProjectDetail />;
+      case 'multimodal-object-detection':
+        return <MultimodalProjectDetail />;
+      case 'path-voice-classification':
+        return <PathologicalVoiceDetail />;
       case 'ciri-incident-classification':
         return <CIRIProjectDetail />;
       default:

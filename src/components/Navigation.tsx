@@ -23,7 +23,7 @@ const navItems = [
   ['Education', '/pooja_portfolio/education'],
   ['Experience', '/pooja_portfolio/timeline'],
   ['Projects', '/pooja_portfolio/projects'],
-  ['Resume', 'https://drive.google.com/file/d/1qrJe-hlRHkoSFTSZkm8Eu0IgRLqnhOJS/view?usp=sharing'],
+  ['Resume', 'https://drive.google.com/file/d/1aBeC_0nXvVp1xfeWFrG363Dldp_GuCwN/view?usp=sharing'],
   // ['Contact', '/contact']
 ];
 

@@ -4,7 +4,7 @@
 
 .about-section {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -52,8 +52,8 @@
 .about-section .image-wrapper {
     z-index: 2;
     img {
-        width: 150px;
-        height: 145px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
     }
 }

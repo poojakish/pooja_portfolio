@@ -17,11 +17,11 @@ const labelsFirst = [
     "Python", "PyTorch", "TensorFlow", "Keras", "OpenAI API", "LangChain",
     "YOLO (Ultralytics)", "Vision Transformers",
     "SHAP", "UMAP", "SAM (Segment Anything Model)",
-    "Pandas", "NumPy", "scikit-learn"
+    "Pandas", "NumPy", "scikit-learn", "Spark", "High Performance Computing (HPC)"
 ];
 
 const labelsSecond = [
-    "YOLOv8", "Ultralytics", "OpenCV", "Image augmentation", "synthetic data pipelines", "LiDAR / Point Cloud integration"
+    "Object Detection", "Image Segmentation", "Image Classification", "3D Image Analysis", "Image Processing", "Pose Estimation" , "Vision Transformers (ViT)", "Vision Language Models (VLMs)", "YOLOv8", "Ultralytics", "OpenCV", "Image augmentation", "synthetic data pipelines", "LiDAR / Point Cloud integration",
 ];
 
 const labelsThird = [
@@ -29,7 +29,7 @@ const labelsThird = [
 ];
 
 const labelsFourth = [
-    "Git", "GitHub Actions", "Azure DevOps", "Docker", "Azure", "AWS", "Linux"
+    "Git", "GitHub Actions", "Azure DevOps", "Docker", "Azure", "AWS", "Linux" 
 ];
 
 const labelsFifth = [
@@ -68,7 +68,7 @@ function Expertise() {
                     </div>
                 </div>
 
-                <div className="skill">
+                {/* <div className="skill">
                     <FontAwesomeIcon icon={faBookOpen} size="3x"/>
                     <h3>Research & Explainable AI</h3>
                     <p>Strong background in AI research, with a focus on interpretability and responsible AI. Experience applying XAI techniques to evaluate and improve model transparency and trustworthiness.</p>
@@ -78,7 +78,7 @@ function Expertise() {
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
